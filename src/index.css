@@ -85,6 +85,10 @@ hr{
   height: 2px;
 }
 
+.borderEx{
+  margin-left: 0.5rem;
+}
+
 .colored{
   display: flex;
   justify-content: space-around;

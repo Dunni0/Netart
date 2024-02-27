@@ -23,7 +23,7 @@ export default function Footer() {
            <span className='border'>BUILDING </span>
            <span className='border'>HVAC </span>
            <span className='border'>FIRE FIGHTING </span>
-           <span>AGRICULTURE & RESIDENTIAL</span>
+           <span className = 'borderEx'>AGRICULTURE & RESIDENTIAL</span>
         </div> 
 
         <div className= "colored">
