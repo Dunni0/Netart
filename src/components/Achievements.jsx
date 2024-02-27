@@ -4,7 +4,7 @@ export default function Achievements() {
   return (
     <div className='achievements'>
           <p>
-          INSTALLED OVER 10 LAKHS STAR RATED PUMPSETS ACROSS THE COUNTRY RESULTING IN A CUMULATIVE SAVING OF MORE THAN 9,000 MILLION 
+          INSTALLED OVER 10 LAKHS STAR RATED PUMPSETS ACROSS THE COUNTRY RESULTING IN A CUMULATIVE SAVING OF MORE THAN 9,000 MILLION OF POWER FOR THE NATION.  
           </p>
 
           <img src='/assets/3.png' alt='achievements'/>

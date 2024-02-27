@@ -7,7 +7,7 @@
 }
 
 .App{
-  background-color: #edd29c6f;
+  background-color: #f5c35f6f;
   padding: 1rem;
 }
 
@@ -58,8 +58,7 @@ ul{
 }
 
 .achievements > img {
-  width: 100%;
-  max-width: 900px;
+  width: 90%;
   padding: 1rem 0 1rem 0;
 }
 
