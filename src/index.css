@@ -1,13 +1,147 @@
-body {
+*{
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  font-size: 12px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App{
+  background-color: #edd29c6f;
+  padding: 1rem;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.header > img{
+  width: 350px;
+}
+
+.award{
+  width: 100%;
+  max-width: 350px;
+}
+
+.infoWrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* width: 100%; */
+}
+
+.infoCon{
+  width: 800px;
+}
+
+ul{
+  margin-top: 0.8rem;
+  margin-left: 2.2rem;
+}
+
+.awardPresentation{
+  width: 100%;
+  padding: 1rem 0 1rem 0;
+}
+
+.achievements{
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+   /* margin-bottom: 2rem; */
+}
+
+.achievements > img {
+  width: 100%;
+  max-width: 900px;
+  padding: 1rem 0 1rem 0;
+}
+
+hr{
+  border: 1px solid rgb(237, 49, 49);
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.footer{
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.footerItems{
+  font-size: 0.8rem;
+  margin-top: 2rem;
+}
+
+.border{
+  border-right: 2px solid rgb(237, 49, 49);
+  margin-right: 0.3rem;
+  margin-left: 0.3rem;
+  height: 2px;
+}
+
+.colored{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem;
+  margin-top: 2rem;
+  color: #fff;
+  background-color: rgb(237, 49, 49);
+}
+
+.colored > p > span{
+  font-size: 10px !important;
+}
+
+.colored > p {
+  display: flex;
+  gap: 2px;
+  align-items: baseline;
+}
+
+.icon{
+   width: 20px;
+   background-color: #fff;
+   color: rgb(237, 49, 49);
+   height: 18px;
+   width: 18px;
+   padding: 2px;
+   border-radius: 50%;
+}
+
+
+@media screen and (max-width: 1020px) {
+  .infoWrapper{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .infoCon{
+    width: 400px;
+  }
+  
+}
+
+@media screen and (max-width: 650px) {
+  .header > img{
+    width: 300px;
+  }
+
+  .infoCon{
+    max-width: 300px;
+    padding: 1rem;
+  }
+
+  .colored{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
 }
