@@ -80,8 +80,8 @@ hr{
 
 .border{
   border-right: 2px solid rgb(237, 49, 49);
-  margin-right: 0.3rem;
-  margin-left: 0.3rem;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
   height: 2px;
 }
 
